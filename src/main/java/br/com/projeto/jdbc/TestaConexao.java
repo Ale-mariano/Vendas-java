@@ -14,20 +14,13 @@ import javax.swing.JOptionPane;
 public class TestaConexao {
     
      
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         
-         try {
-             
-         new ConnectionFatory().getConnection();
-             JOptionPane.showMessageDialog(null, "Conectado com sucesso!");  
-             
-         } catch (Exception erro) {
-           JOptionPane.showMessageDialog(null, "Ops aconteceu o erro: "  + erro);    
-         }
-         
-         
-     }
-    
-}
-
-    
+        try {
+            new ConnectionFatory().getConnection();
+            JOptionPane.showMessageDialog(null, "Conectado com sucesso!");
+        } catch (Exception erro) {
+            JOptionPane.showMessageDialog(null, "Ops! aconteceu o erro:" + erro);
+        }
+        }
+    }
