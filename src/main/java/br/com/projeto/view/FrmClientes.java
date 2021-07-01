@@ -439,7 +439,7 @@ public class FrmClientes extends javax.swing.JFrame {
             ClientesDao dao = new ClientesDao();
             dao.cadastrarCliente(obj);
             
-              
+           
                 
     }//GEN-LAST:event_btnsalvarActionPerformed
 
