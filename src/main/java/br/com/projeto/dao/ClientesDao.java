@@ -74,7 +74,7 @@ public class ClientesDao {
     
    // Método Listar Todos os Clientes
     
-      public List<Clientes> listarClientes(){
+      public List<Clientes> listarClientes() {
         try {
 
             //Criar a lista
